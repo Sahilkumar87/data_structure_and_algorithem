@@ -16,7 +16,7 @@ public class group_anagram49 {
         Map<String, List> ansMap = new HashMap<>();
 
         int[] count = new int[26];
-        for(String s : strs){
+        for(String s : strs){   
             Arrays.fill(count, 0);
             for(char c : s.toCharArray()){
                 count[c - 'a']++;
