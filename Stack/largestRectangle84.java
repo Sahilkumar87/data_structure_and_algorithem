@@ -21,6 +21,6 @@ public class largestRectangle84 {
         return maxArea;
         
     }
-}
+} 
     
 }
